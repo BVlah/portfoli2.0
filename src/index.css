@@ -13,11 +13,12 @@ code {
 }
 
 .logo {
-  width: 25vw;
+  width: 20vw;
   display: block;
-  margin-top: 13px;
-  margin-bottom: 13px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
+
 
 header {
   display: flex;
@@ -57,6 +58,47 @@ header nav ul li:hover {
   border-bottom: 5px solid #d8d5ff;
   border-left: 5px solid #756dfe;
   background: #b0abff;
+}
+
+.body {
+  display: flex;
+  min-height: 72vh;
+  flex-direction: column;
+}
+
+.about {
+  flex: 1;
+  margin-top: 2vw;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pic {
+  border-radius: 50px;
+  float: left;
+  margin: 25px;
+  position: relative;
+  background: white;
+  color: white;
+  box-shadow: 10px 10px rgba(0,0,0,.15);
+  shape-outside: ellipse(60% 60%);
+  width: 20%;
+}
+
+.content {
+  margin-left: auto;
+  max-width: 75%;
+  padding-right: 5vw;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+.footer {
+  margin-top: auto;
 }
 
 .footer-link {

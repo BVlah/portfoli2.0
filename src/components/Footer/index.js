@@ -3,9 +3,10 @@ import React from 'react'
 export default function Footer() {
     return (
         <footer>
-            <div className="text-center footer">
+            <div className="text-center w-100 footer">
                 <p>
-                    <br></br><hr />
+                    <br></br>
+                    <hr />
                     <p className='mb-2'>A React site by <strong>Brennan Vlahcevic</strong></p>
                     <a className='footer-link' href="https://github.com/BVlah" target="_blank" rel="noreferrer">
                         <i class="fa-brands fa-2x fa-github"></i>
