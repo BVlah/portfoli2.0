@@ -15,7 +15,7 @@ function Nav(props) {
                 <ul className="flex-row">
                     {tabs.map((tab) => (
                         <li className={props.currentPage === tab ? "nav-item is-active" : "nav-item"} key={tab}>
-                            <a href={"#" + tab.toLowerCase()} onClick={() => props.handlePageChange(tab)} className={props.currentPage === tab ? "nav-link active" : "nav-link"}>{tab}</a>
+                            <a href={"#" + tab.toLowerCase()} onClick={() => props.handlePageChange(tab)} className={props.currentPage === tab ? "nav-link active" : "nav-link"}><div className="tab">{tab}</div></a>
                         </li>
                     ))}
                 </ul>
