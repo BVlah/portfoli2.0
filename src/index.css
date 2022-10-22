@@ -82,7 +82,6 @@ header nav ul li:hover {
   background: white;
   color: white;
   box-shadow: 10px 10px rgba(0,0,0,.15);
-  shape-outside: ellipse(60% 60%);
   width: 20%;
 }
 

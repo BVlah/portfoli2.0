@@ -1,12 +1,8 @@
 import React from "react";
 import Logo from "../../assets/nameLogo.png"
 
-function Nav() {
+function Nav(props) {
     const tabs = ['About Me','Portfolio','Contact Me','Resume'];
-
-    function tabSelected(tab) {
-        console.log(`${tab} clicked`)
-    }
       
     return (
         <header>
@@ -18,8 +14,8 @@ function Nav() {
             <nav>
                 <ul className="flex-row">
                     {tabs.map((tab) => (
-                        <li key={tab}>
-                            <span onClick={() => tabSelected(tab)}>{tab}</span>
+                        <li className={props.currentPage === tab ? "nav-item is-active" : "nav-item"} key={tab}>
+                            <a href={"#" + tab.toLowerCase()} onClick={() => props.handlePageChange(tab)} className={props.currentPage === tab ? "nav-link active" : "nav-link"}>{tab}</a>
                         </li>
                     ))}
                 </ul>
