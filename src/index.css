@@ -12,6 +12,16 @@ code {
     monospace;
 }
 
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* Header Styling */
+
 .logo {
   width: 20vw;
   display: block;
@@ -73,15 +83,12 @@ header nav ul li:hover {
   color: black;
 }
 
-.body {
-  display: flex;
-  min-height: 67vh;
-  flex-direction: column;
-}
+
+/* Body Styling */
 
 section {
   flex: 1;
-  margin-top: 2vw;
+  margin-top: 2vh;
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -91,6 +98,8 @@ section {
   text-align: center;
   margin-bottom: 1vw;
 }
+
+/* About Me Styling */
 
 .pic {
   border-radius: 50px;
@@ -109,17 +118,64 @@ section {
   padding-right: 5vw;
 }
 
+/* Portfolio Styling */
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 275px;
+  margin: 20px 13px;
+  box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.14);
+  -webkit-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.14);
+  -moz-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.14);
+}
+
+.feature-display {
+  min-width: 100%;
+  margin-top: 3vh;
+}
+
+.feature-card {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 40vw;
+  position: relative;
+}
+
+.feature-title {
+  margin-bottom: 2vh;
+  font-size: 28px;
+}
+
+.card-img {
+  opacity: 50%;
+}
+
+.card-img:hover {
+  opacity: 100%;
+}
+
+.card-body {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.75);
+  bottom: 0px;
+  width: 100%;
+}
+
+.website {
+  margin-right: 1vw;
+}
+
+/* Contact Me Styling */
+
 form {
   max-width: 75%; 
   margin:20px auto;
-}
-
-.footer {
-  margin-top: auto;
-}
-
-.footer-link {
-  margin: 0px 5px;
 }
 
 .response {
@@ -134,6 +190,17 @@ form {
   box-sizing: border-box;
   outline: 0;
 }
+
+/* Footer Styling */
+
+.footer {
+  margin-top: auto;
+}
+
+.footer-link {
+  margin: 0px 5px;
+}
+
 
 @media screen and (max-width: 1150px) {
   .tab {

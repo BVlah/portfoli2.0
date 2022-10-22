@@ -3,7 +3,7 @@ import mePic from "../../assets/Me.png";
 
 function About() {
   return (
-    <section className="body">
+    <section>
       
       <div>
         <div>
