@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../assets/nameLogo.png"
 
 function Nav(props) {
-    const tabs = ['About Me','Portfolio','Contact Me','Resume'];
+    const tabs = ['About Me','Portfolio','Contact Me'];
       
     return (
         <header>
@@ -18,6 +18,7 @@ function Nav(props) {
                             <a href={"#" + tab.toLowerCase()} onClick={() => props.handlePageChange(tab)} className={props.currentPage === tab ? "nav-link active" : "nav-link"}><div className="tab">{tab}</div></a>
                         </li>
                     ))}
+                    <li><a href="https://docs.google.com/document/d/1ChmcZUcu8XuKWlAe4QRP5IksQl7MQOSIcLToTL9Fofo/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
                 </ul>
             </nav>
         </header>

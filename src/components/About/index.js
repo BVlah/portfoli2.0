@@ -5,11 +5,11 @@ function About() {
   return (
     <section className="body">
       
-      <div className="about">
+      <div>
         <div>
-          <img src={mePic} className="pic" alt="picture of Brennan"/>
+          <img src={mePic} className="pic" alt="Brennan"/>
         </div>
-        <div className = "content">
+        <div className = "about">
             <h1 className="header"><u>About Me</u></h1>
             <p>
             Hello and welcome to my portfolio! My name is Brennan Vlahcevic, and I am an aspiring full-stack developer having completed my full stack boot camp certificate from the Univeristy of Richmond in November 2022. I also have an advanced knowledge of postgreSQL, and will be teaching myself Python as my next challenge.

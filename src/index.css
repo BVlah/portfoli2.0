@@ -74,16 +74,21 @@ header nav ul li:hover {
 
 .body {
   display: flex;
-  min-height: 72vh;
+  min-height: 67vh;
   flex-direction: column;
 }
 
-.about {
+section {
   flex: 1;
   margin-top: 2vw;
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1vw;
 }
 
 .pic {
@@ -97,15 +102,15 @@ header nav ul li:hover {
   width: 20%;
 }
 
-.content {
+.about {
   margin-left: auto;
   max-width: 75%;
   padding-right: 5vw;
 }
 
-.header {
-  text-align: center;
-  margin-bottom: 1vw;
+form {
+  max-width: 75%; 
+  margin:20px auto;
 }
 
 .footer {
@@ -114,6 +119,19 @@ header nav ul li:hover {
 
 .footer-link {
   margin: 0px 5px;
+}
+
+.response {
+  font-weight:400;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 25px;
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline: 0;
 }
 
 @media screen and (max-width: 1150px) {
