@@ -1,8 +1,30 @@
-# Getting Started with Create React App
+# My Portfolio
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Description
+A portfolio of just a few of my projects, an about me section, and a way to reach out and contact me.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<img width="1782" alt="Screen Shot 2022-10-22 at 12 47 38 PM" src="https://user-images.githubusercontent.com/78816141/197352438-d79eaea6-c344-4ae0-a785-51b56030c97f.png">
+
+## Table of Contents
+[Installation Instructions](#installation-instructions)    
+
+[Usage Instructions](#usage-instructions)
+  
+[Questions](#questions)  
+
+[License](#license)
+
+## Installation Instructions
+Clone the repository and run 'npm i' to install all node packages. After packages have installed run 'npm start' and the browser will automatically load the application.
+
+## Usage Instructions
+
+See the below React instrucations for Usage:
+
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -68,3 +90,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Questions
+For more information about the developer, check out my [Github Profile](https://github.com/BVlah)
+For additional questions, please reach out to me via email: [bvlahcevic@yahoo.com](bvlahcevic@yahoo.com)
+
+## License
+MIT License
+
+Copyright (c) 2022 by [BVlah](https://github.com/BVlah)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
