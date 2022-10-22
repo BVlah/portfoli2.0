@@ -70,6 +70,7 @@ header nav ul li:hover {
   padding: 2vw 5vw;
   display: inline-block;
   font-size: 19px;
+  color: black;
 }
 
 .body {
