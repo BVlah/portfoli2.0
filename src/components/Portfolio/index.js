@@ -1,8 +1,8 @@
 import React from 'react';
-import bootcampChamp from '../../assets/bootCampChamp.png';
+import bootCampChamp from '../../assets/bootCampChamp.png';
+import subAtomic from '../../assets/subAtomic.png';
 import jate from '../../assets/jate.png';
 import noteTaker from '../../assets/noteTaker.png';
-import passwordGenerator from '../../assets/passwordGenerator.png';
 import rpg from '../../assets/randomProjectGenerator.png';
 import runBuddy from '../../assets/runBuddy.png';
 
@@ -37,10 +37,10 @@ const projects = [
     },
     {
         id: 4,
-        title: 'Password Generator',
-        image: passwordGenerator,
-        link: 'https://bvlah.github.io/password_generator/',
-        repo: 'https://github.com/BVlah/password_generator'
+        title: 'Boot Camp Champ',
+        image: bootCampChamp,
+        link: 'https://bootcamp-champ-uofr.herokuapp.com/',
+        repo: 'https://github.com/chou8395-XOMYwl/bootcamp-champ'
     }
 ];
 function Portfolio() {
@@ -50,11 +50,11 @@ function Portfolio() {
             <div className='cards'>
                 <div className = 'feature-display'>
                     <div className= 'feature-card'>
-                        <img src= {bootcampChamp} className='card-img' alt='feature-project' />
+                        <img src= {subAtomic} className='card-img' alt='feature-project' />
                         <div className='card-body text-center'>
                                 <h5 class='feature-title'><strong>BootCamp Champ</strong></h5>
-                                <a href='https://bootcamp-champ-uofr.herokuapp.com/' target ='_blank' rel ='noreferrer' className='btn btn-primary website'>Website</a>
-                                <a target='_blank' rel='noreferrer' href='https://github.com/chou8395-XOMYwl/bootcamp-champ' className ='btn btn-primary'>Github</a>
+                                <a href='https://sub-atomic-mern.herokuapp.com/' target ='_blank' rel ='noreferrer' className='btn btn-primary website'>Website</a>
+                                <a target='_blank' rel='noreferrer' href='https://github.com/rva-mike/Substitute-Finder' className ='btn btn-primary'>Github</a>
                         </div>
                     </div>
                 </div>
