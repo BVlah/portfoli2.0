@@ -1,10 +1,12 @@
 # My Portfolio
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 A portfolio of just a few of my projects, an about me section, and a way to reach out and contact me.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+View the website here: https://bvlah.github.io/portfoli2.0/
 
 <img width="1782" alt="Screen Shot 2022-10-22 at 12 47 38 PM" src="https://user-images.githubusercontent.com/78816141/197352438-d79eaea6-c344-4ae0-a785-51b56030c97f.png">
 
